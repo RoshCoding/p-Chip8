@@ -576,7 +576,7 @@ fontset = [
 if __name__ == "__main__":
     Chip8 = Chip8()
     Chip8.load_fontset()
-    Chip8.load_rom("roms\Maze [David Winter, 199x].ch8")
+    Chip8.load_rom("roms\path_to_rom.ch8") # Insert path to rom file for execution here (not all ROMS work perfectly)
         
 
     pygame.init()
